@@ -1,12 +1,33 @@
 {
   "name": "livesupport",
-  "module": "index.ts",
-  "type": "module",
+  "version": "1.0.0",
   "private": true,
+  "description": "To install dependencies:",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^26.1.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "7",
+    "node": "^26.4.0",
+    "nodejs": "^0.0.0",
+    "ws": "^8.21.0",
+    "zod": "^4.4.3"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "module": "index.ts"
 }
